@@ -1,1 +1,5 @@
+# To ignore a specific file at same repo or main repo
 error.log
+# Ignore files of a particular extension 
+# here we ignore files with ( .log )
+*.log

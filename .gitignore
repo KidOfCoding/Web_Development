@@ -1,5 +1,9 @@
 # To ignore a specific file at same repo or main repo
 error.log
-# Ignore files of a particular extension 
+# Ignore files of a particular extension all over the repo
 # here we ignore files with ( .log )
 *.log
+# By defaukt this ignores all the dir named " cache " inside the repo
+cache/
+# we want to ignore only outer cache 
+#/cache/

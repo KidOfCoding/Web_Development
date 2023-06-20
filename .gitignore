@@ -7,3 +7,9 @@ error.log
 cache/
 # we want to ignore only outer cache 
 #/cache/
+
+# If once a file is being started tracked then ,it will be tracked though it is in .gitignore
+c-1.txt
+#so that we have to unstage it using
+# git restore --staged <file>
+# git rm --cached <file>

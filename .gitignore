@@ -13,3 +13,6 @@ c-1.txt
 #so that we have to unstage it using
 # git restore --staged <file>
 # git rm --cached <file>
+/Git_Tutorial_Notes
+gitdiff.docx
+gitignore.docx
